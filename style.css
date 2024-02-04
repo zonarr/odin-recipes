@@ -1,9 +1,16 @@
+*{
+    background-color:black;
+    color:white;
+    box-sizing:border-box;
+}
 h1{
     font-family:"Times New Roman","Georgia";
     font-size:xx-large;
     text-align:center;
     background-color:black;
     color:white;
+    border-bottom:5px white solid;
+    font-size:50px;
 }
 *{
     font-family:"Brush Script MT","Lucida Handwriting";
@@ -12,9 +19,27 @@ h1{
 h2{
     font-size:x-large;
 }
-.choices{
+.recipelist{
+    padding:1px;
     font-weight:bold;
+    border:5px white solid;
+    width:250px;
+    margin:10px 10px 10px 0px;
 }
 .intro{
     text-align:right
+}
+.halfwidthimg{
+    display:inline;
+    width:1020px;
+    height:312px;
+}
+.grtxt{
+    display:inline-block;
+    width:860px;
+    font-size:50px;
+    border-top:30px white solid;
+    border-bottom:30px white solid;
+    padding:10px;
+    text-align:center;
 }
